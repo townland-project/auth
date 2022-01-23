@@ -4,7 +4,11 @@ module.exports = {
     './src/**/*.ts'
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'metamask': "url('/public/assets/metamask.svg')",
+      }
+    },
   },
   variants: {
     extend: {},

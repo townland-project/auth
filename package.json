@@ -46,8 +46,8 @@
   },
   "dependencies": {
     "@townland-project/app": "*",
-    "@townland-project/dom": "*",
-    "@townland-project/eventer": "*",
+    "@townland-project/dom": "^0.0.8",
+    "@townland-project/eventer": "^0.0.3",
     "@townland-project/gui": "*",
     "html-webpack-plugin": "^5.5.0"
   },
