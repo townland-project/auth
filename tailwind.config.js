@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'metamask': "url('/public/assets/metamask.svg')",
+        'back': "url('/public/assets/back.svg')",
+        'forward': "url('/public/assets/forward.svg')",
       }
     },
   },

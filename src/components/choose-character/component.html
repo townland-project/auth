@@ -1,0 +1,57 @@
+<section class="flex flex-col w-[35vw]">
+    <div class="p-4 rounded-lg bg-white border-2 border-[#596275]">
+        <div class="character mx-auto my-[5vh] w-[20vw] h-[20vw] bg-no-repeat bg-contain bg-center">
+
+        </div>
+
+        <footer class="flex flex-nowrap items-center mt-5 w-full">
+            <button bind-click="Previus()"
+                class="w-[28px] h-[28px] bg-no-repeat bg-center bg-contain bg-back hover:scale-125 active:scale-100">
+            </button>
+
+            <span class="text-gray-700 mx-auto">
+                <span bind-value="Index"></span>
+                /
+                <span bind-value="Length"></span>
+            </span>
+
+            <button bind-click="Next()"
+                class="w-[28px] h-[28px] bg-no-repeat bg-center bg-contain bg-forward hover:scale-125 active:scale-100">
+            </button>
+        </footer>
+    </div>
+
+    <div class="flex flex-col mt-2 p-4 rounded-lg bg-white border-2 border-[#596275]">
+        <div class="flex nowrap mb-4">
+            <span class="mr-auto">Gender</span>
+
+            <!-- <label class="inline-flex items-center cursor-pointer">
+                <input type="radio" class="form-radio text-[#55E6C1] border-2 border-gray-800" name="gender"
+                    value="male" checked>
+                <span class="ml-2">Male</span>
+            </label>
+
+            <label class="inline-flex items-center ml-6 cursor-pointer">
+                <input type="radio" class="form-radio text-[#55E6C1] border-2 border-gray-800" name="gender"
+                    value="female">
+                <span class="ml-2">Female</span>
+            </label> -->
+
+            <span class="text-gray-700" bind-value="Gender"></span>
+        </div>
+
+        <div class="flex flex-nowrap">
+            <input
+                class="bg-[#e6e8e9] w-full mr-1 border-2 border-[#596275] text-[#596275] placeholder:text-[#303952] px-3 py-2 rounded-md mb-5"
+                type="text" placeholder="First name">
+            <input
+                class="bg-[#e6e8e9] w-full ml-1 border-2 border-[#596275] text-[#596275] placeholder:text-[#303952] px-3 py-2 rounded-md mb-5"
+                type="text" placeholder="Last name">
+        </div>
+
+        <button
+            class="bg-gradient-to-b from-[#f3a683] via-[#f3a683] to-[#f19066] rounded-md py-2 border-2 border-[#303952] hover:border-[#303952] active:scale-95">
+            Choose this character
+        </button>
+    </div>
+</section>
